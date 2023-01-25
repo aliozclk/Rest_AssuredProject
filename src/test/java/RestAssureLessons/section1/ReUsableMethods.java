@@ -1,4 +1,4 @@
-package RestAssureLessons;
+package RestAssureLessons.section1;
 
 import io.restassured.path.json.JsonPath;
 
