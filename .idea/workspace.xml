@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d4c14e1-66a1-4db9-b93c-941117662b5f" name="Changes" comment="RestApiTesting">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssureLessons/OAuthTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/GetCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/WebAutomation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssureLessons/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oAuthLessons/OAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/Courses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <workItem from="1674760553448" duration="2431000" />
       <workItem from="1674824604400" duration="24000" />
       <workItem from="1675348794472" duration="5201000" />
-      <workItem from="1675370154074" duration="3651000" />
+      <workItem from="1675370154074" duration="5716000" />
     </task>
     <task id="LOCAL-00001" summary="RestApiTesting">
       <created>1674580906081</created>
@@ -87,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675348811577</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="RestApiTesting">
+      <created>1675374162431</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675374162431</updated>
+    </task>
+    <task id="LOCAL-00005" summary="RestApiTesting">
+      <created>1675374201029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675374201029</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,6 +1,9 @@
-package RestAssureLessons;
+package oAuthLessons;
 
+import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
+import pojo.GetCourse;
+
 import static io.restassured.RestAssured.given;
 
 public class OAuthTest {
@@ -18,7 +21,7 @@ public class OAuthTest {
 //        Thread.sleep(2000);
 //        String url = driver.getCurrentUrl();
 
-        String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AWtgzh42EZaeVo4lwHtfS17TWGu7_wkMMWxaDTJkB8aJ9FEWjzA8bg9LdyHXxaJ5_0N1Fw&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent";
+        String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AWtgzh7Z3yVEO5ZpQEo8SaxRr3y2PbbWQKC5ewPOrq-24F81YWF_yA9a1TwIKV69KDctjg&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none";
 
         String partialCode = url.split("code=")[1];
         String code = partialCode.split("&scope")[0];
@@ -37,11 +40,15 @@ public class OAuthTest {
         JsonPath js = new JsonPath(accessTokenResp);
         String accessToken = js.getString("access_token");
 
-        String response = given().queryParam("access_token", accessToken)
-                .when().log().all()
+        GetCourse gc = given().queryParam("access_token", accessToken).expect().defaultParser(Parser.JSON)
+                .when()
                 .get("https://rahulshettyacademy.com/getCourse.php")
-                .asString();
+                .as(GetCourse.class);
 
-        System.out.println(response);
+        System.out.println(gc.getLinkedIn());
+        System.out.println(gc.getInstructor());
+
+        //System.out.println(response);
+
     }
 }
