@@ -1,9 +1,8 @@
-package RestAssureLessons.section7;
+package RestAssuredLessons.section7;
 
-import RestAssureLessons.section1.ReUsableMethods;
+import RestAssuredLessons.section1.ReUsableMethods;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import org.openqa.selenium.remote.Response;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

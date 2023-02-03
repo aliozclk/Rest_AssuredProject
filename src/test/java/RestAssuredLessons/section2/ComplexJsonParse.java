@@ -1,8 +1,7 @@
-package RestAssureLessons.section2;
+package RestAssuredLessons.section2;
 
-import RestAssureLessons.section1.PayLoad;
+import RestAssuredLessons.section1.PayLoad;
 import io.restassured.path.json.JsonPath;
-import org.testng.Assert;
 
 public class ComplexJsonParse {
 

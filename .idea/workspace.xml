@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d4c14e1-66a1-4db9-b93c-941117662b5f" name="Changes" comment="RestApiTesting">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraTest/AddAttachment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraTest/AddComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraTest/GetIssue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraTest/jira.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/oAuthLessons/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oAuthLessons/OAuthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/Api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/Courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/GetCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/GetCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssureLessons/section1/BasicMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredLessons/section1/BasicMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssureLessons/section1/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredLessons/section1/Basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssureLessons/section1/PayLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredLessons/section1/PayLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssureLessons/section1/ReUsableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredLessons/section1/ReUsableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssureLessons/section2/ComplexJsonParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredLessons/section2/ComplexJsonParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssureLessons/section2/SumValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredLessons/section2/SumValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssureLessons/section7/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredLessons/section7/DynamicJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssureLessons/section7/PayLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredLessons/section7/PayLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssureLessons/section7/convertJsonToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredLessons/section7/convertJsonToString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssureLessons/section7/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredLessons/section7/example.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +74,8 @@
       <workItem from="1674824604400" duration="24000" />
       <workItem from="1675348794472" duration="5201000" />
       <workItem from="1675370154074" duration="5835000" />
-      <workItem from="1675416994632" duration="2993000" />
+      <workItem from="1675416994632" duration="3024000" />
+      <workItem from="1675447947743" duration="9410000" />
     </task>
     <task id="LOCAL-00001" summary="RestApiTesting">
       <created>1674580906081</created>
@@ -108,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675376514331</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="RestApiTesting">
+      <created>1675420795949</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675420795951</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +151,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/RestAssureLessons/section2/ComplexJsonParse.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/RestAssuredLessons/section2/ComplexJsonParse.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

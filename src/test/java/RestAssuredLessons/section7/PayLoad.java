@@ -1,4 +1,4 @@
-package RestAssureLessons.section7;
+package RestAssuredLessons.section7;
 
 public class PayLoad {
 

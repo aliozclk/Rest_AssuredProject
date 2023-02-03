@@ -1,4 +1,4 @@
-package RestAssureLessons.section7;
+package RestAssuredLessons.section7;
 
 import java.io.IOException;
 import java.nio.file.Files;
