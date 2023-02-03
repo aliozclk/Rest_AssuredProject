@@ -1,6 +1,6 @@
 package pojo;
 
-public class Api {
+public class Api{
     private String courseTitle;
     private String price;
 

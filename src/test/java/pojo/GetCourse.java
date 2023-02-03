@@ -36,9 +36,6 @@ public class GetCourse {
     return courses;
   }
 
-  public void setCourses(Courses courses) {
-    this.courses = courses;
-  }
 
   public String getInstructor() {
     return instructor;

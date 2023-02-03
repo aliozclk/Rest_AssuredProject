@@ -2,7 +2,7 @@ package pojo;
 
 import java.util.List;
 
-public class Courses {
+public class Courses{
 
     private List<WebAutomation> webAutomation;
     private List<Api> api;
