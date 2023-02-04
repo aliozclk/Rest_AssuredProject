@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d4c14e1-66a1-4db9-b93c-941117662b5f" name="Changes" comment="RestApiTesting">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/AvatarUrls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/CommentsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Fields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/UpdateAuthor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Visibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oAuthLessons/SpecBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oAuthLessons/serializeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/AddPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +66,7 @@
       <workItem from="1675370154074" duration="5835000" />
       <workItem from="1675416994632" duration="3024000" />
       <workItem from="1675447947743" duration="9583000" />
-      <workItem from="1675501863277" duration="552000" />
+      <workItem from="1675501863277" duration="5539000" />
     </task>
     <task id="LOCAL-00001" summary="RestApiTesting">
       <created>1674580906081</created>
@@ -128,7 +124,35 @@
       <option name="project" value="LOCAL" />
       <updated>1675460976019</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="RestApiTesting">
+      <created>1675502557129</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675502557129</updated>
+    </task>
+    <task id="LOCAL-00010" summary="RestApiTesting">
+      <created>1675502589812</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675502589812</updated>
+    </task>
+    <task id="LOCAL-00011" summary="RestApiTesting">
+      <created>1675502597691</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675502597691</updated>
+    </task>
+    <task id="LOCAL-00012" summary="RestApiTesting">
+      <created>1675502606670</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675502606670</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +180,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/RestAssuredLessons/section2/ComplexJsonParse.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/oAuthLessons/serializeTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
